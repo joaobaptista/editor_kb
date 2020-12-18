@@ -677,9 +677,7 @@ function onClickIconSubMenu(event) {
 }
 
 $btnRegisterIcon.on('click', function() {
-    $iconSubMenu.find('.menu-item').eq(3).after(
-        '<li id="customArrow" class="menu-item icon-text" data-icon-type="customArrow">↑</li>'
-    );
+    
 
     imageEditor.registerIcons({
         customArrow: 'M 60 0 L 120 60 H 90 L 75 45 V 180 H 45 V 45 L 30 60 H 0 Z'
@@ -744,7 +742,7 @@ $btnLoadMaskImage.on('change', function() {
     if (file) {
         imgUrl = URL.createObjectURL(file);
 
-        imageEditor.loadImageFromURL(imageEditor.toDataURL(), 'FilterImage').then(function() {
+        imageEditor.loadImageFromURL(imageEditor.toDataURL(\texturas), 'FilterImage').then(function() {
             imageEditor.addImageObject(imgUrl).then(function(objectProps) {
                 URL.revokeObjectURL(file);
                 console.log(objectProps);
