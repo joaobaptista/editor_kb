@@ -1,9 +1,4 @@
 /**
-* Template Name: Sailor - v2.2.0
-* Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -45,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #d9232d;
+  background: #b5883e;
   color: #fff;
   transition: all 0.4s;
 }
@@ -120,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #556270;
+  color: #b5883e;
   transition: 0.3s;
   font-size: 15px;
   font-weight: 500;
@@ -128,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #d9232d;
+  color: #b5883e;
 }
 
 .nav-menu .drop-down ul {
@@ -161,11 +156,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #556270;
+  color: #b5883e;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #d9232d;
+  color: #b5883e;
 }
 
 .nav-menu .drop-down > a:after {
@@ -211,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  background: #d9232d;
+  background: #b5883e;
   color: #fff;
   border-radius: 4px;
   padding: 8px 30px 9px 30px;
@@ -222,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #e1444d;
+  background: #b5883e;
   color: #fff;
 }
 
@@ -484,11 +479,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  background: #d9232d;
+  background: #b5883e;
 }
 
 #hero .btn-get-started:hover {
-  background: #df3740;
+  background: #b5883e;
 }
 
 @media (max-width: 992px) {
@@ -541,7 +536,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #b5883e;
   font-family: "Poppins", sans-serif;
 }
 
@@ -550,7 +545,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #e6636a;
+  background: #b5883e;
   margin: 4px 10px;
 }
 
@@ -561,7 +556,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #556270;
+  color: #b5883e;
 }
 
 /*--------------------------------------------------------------
@@ -656,7 +651,7 @@ section {
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: #d9232d;
+  color: #b5883e;
 }
 
 .about .content p:last-child {
@@ -703,7 +698,7 @@ section {
 
 .services .icon-box i {
   float: left;
-  color: #d9232d;
+  color: #b5883e;
   font-size: 40px;
 }
 
@@ -726,7 +721,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #d9232d;
+  color: #b5883e;
 }
 
 /*--------------------------------------------------------------
